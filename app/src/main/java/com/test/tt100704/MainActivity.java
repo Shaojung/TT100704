@@ -28,13 +28,13 @@ public class MainActivity extends AppCompatActivity {
         Map m2 = new HashMap();
         m2.put("city", "台中");
         m2.put("code", "04");
-        m1.put("img", R.drawable.c2);
+        m2.put("img", R.drawable.c2);
         mylist.add(m2);
 
         Map m3 = new HashMap();
         m3.put("city", "台南");
         m3.put("code", "06");
-        m1.put("img", R.drawable.c3);
+        m3.put("img", R.drawable.c3);
         mylist.add(m3);
 
         SimpleAdapter adapter = new SimpleAdapter(
